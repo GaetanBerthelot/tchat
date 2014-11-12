@@ -1,0 +1,60 @@
+<html>
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <title>Chat!</title>
+</head>
+
+<body>
+
+
+    <h1>CHAT!</h1>
+
+
+    <div class="userListBlock">
+        <h2>UTILISATEURS</h2>
+        <div class="blockInBlock">
+            <div id="userInside">
+                    <ul>
+                    </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="messageListBlock">
+        <h2>MESSAGES</h2>
+                <div class="blockInBlock">
+                    <div id="messageInside">
+                    </div>
+                </div>
+    	<div class="sendMessage">
+    		Message : <textarea name="message" id="message" class="formBlock"></textarea>
+    		<br/>
+    		<input type="hidden" name="action">
+    		<input type="submit" name="submit" value="Envoyer votre message !" id="envoi"/> 
+    	</div>
+    </div>
+
+    <div class="loginBlock">
+
+        <h2>Se connecter</h2>
+
+        <div>
+            <input type="text" name="pseudo" value="pseudo" id="pseudo" class="loginBlock">
+            <br/>
+            <br/>
+            <br/>
+            <input type="hidden" name="action">
+            <input type="submit" name="submit" value="Se connecter" id="connecting"/> 
+        </div>
+
+    </div> 
+
+<!-- jquery -->
+<script src="JS/jquery.js"></script>
+
+<!-- fonctions Javascript -->
+<script type="text/javascript" src="JS/functions.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body
+{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+
+
+.userListBlock{
+	float: right;
+	position: relative;
+	width: 30%;
+	height: 85%;
+	background: #C03000;
+}
+
+.messageListBlock{
+	float: left;
+	position: absolute;
+	width: 70%;
+	height: 85%;
+	background: #046380;
+}
+
+.blockInBlock{
+	background: #FCFAE1;
+	width: 86%;
+	height: 90%;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	margin-bottom: 2rem;
+	position: absolute;
+	border-radius: 1rem;
+}
+
+#userInside{
+	position: relative;
+	width: 90%;
+	height: 70%;
+	background: white;
+	margin: 5%;
+	border-radius: 1rem;
+
+}
+
+#messageInside{
+	position: relative;
+	width: 90%;
+	height: 70%;
+	background: white;
+	margin: 5%;
+	border-radius: 1rem;
+
+}
+
+.sendMessage{
+	position: absolute;
+	margin-top: 64%;
+	background: #046380;
+	width: 40%;
+	margin-left: 38%;
+	margin-bottom: 2rem;
+	font-family: Josefin Sans;
+	color: white;
+	padding: 1rem;
+	border-radius: 1rem;
+	border: solid 1rem #046380;
+
+}
+
+h1{
+	font-family: Josefin Sans;
+	text-align: center;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+}
+
+h2{
+	margin-left: 2rem;
+	font-family: Josefin Sans;
+	color: white;
+}
+
+input{
+	font-family: Josefin Sans;
+}
+
+.formBlock{
+	float: right;
+}
+
+#envoi{
+	margin-top: 0.75rem;
+	margin-left: 12rem;
+}
+
+.loginBlock{
+	position: relative;
+	background: rgba(192,48,0,0.8);
+	width: 40%;
+	font-family: Josefin Sans;
+	color: white;
+	padding: 1rem;
+	border-radius: 1rem;
+}
+
+.seConnecter{
+	background-color: rgba(255,255,255,1);
+	border-radius: 0.5rem;
+	color: rgba(192,48,0,1);
+	margin-left: 30%;
+}
